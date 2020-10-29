@@ -24,11 +24,9 @@ Fill me in please! Don't forget code examples:
 
 
 ```python
-def payroll():
-  name = input("Enter the name of the employee: ==> ")
-  hours = int(input("Enter the number of hours worked by the employeer ==> "))
-  rate = float(input("Enter the pay rate for one hour ==> "))
-  
-  total_money = hours * rate 
-  print("The total money earned by ", name, "for working ", hours, "hours", "is ===> ", round(total_money), "CAD")
+say_hello('Grecia')
+```
+
+```python
+payroll()
 ```
